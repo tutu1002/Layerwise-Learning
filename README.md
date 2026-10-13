@@ -165,12 +165,6 @@ The experiments use six ECG series, Power Demand, and 2D-Gesture.
 
 ![Dataset visualization](images/DatasetVisualization.png)
 
-- Dataset link: [Datasets](https://drive.google.com/drive/folders/1yv1po9kwN9mpreh82qyh33HJgGPmUEkO?usp=drive_link)
-
-The dataset preparation follows the benchmark setup used in:
-
-> H. C. V. Ngu and K. M. Lee, "CL-TAD: A Contrastive-Learning-Based Method for Time Series Anomaly Detection," _Applied Sciences_, vol. 13, no. 21, Art. no. 11938, 2023. [https://doi.org/10.3390/app132111938](https://doi.org/10.3390/app132111938)
-
 ### Hyperparameters
 
 | Dataset      | Activation | TCN channels       | Scheduler | Window | Kernel | Batch | Epochs | Dropout | Learning rate |
