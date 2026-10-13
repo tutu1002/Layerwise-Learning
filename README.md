@@ -13,7 +13,7 @@ Deep time-series anomaly detection (TSAD) often relies on increasingly complex a
    - Each temporal module is optimized using its own local reconstruction objective instead of a single globally backpropagated loss.
    - The proposed method achieves PA-F1 scores of 98.23% on ECG, 96.61% on Power Demand, and 99.80% on 2D-Gesture.
 
-![Proposed local-learning architecture](images/ProposedArchitecture.png)
+![Proposed local-learning architecture](images/ProposedArchitecture.JPG)
 
 2. **Layer-Local Learning**
    - Intermediate representations are detached using a stop-gradient operation before each local update.
